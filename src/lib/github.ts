@@ -1,7 +1,7 @@
 import { Octokit } from 'octokit';
 
 // Server-side only: Ensure this is never leaked to the client.
-const GITHUB_PAT = process.env.GITHUB_PAT || "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";
+const GITHUB_PAT = process.env.GITHUB_PAT;
 const OWNER = "FISTOFDARKNESS";
 const REPO = "excaliburstore";
 const BRANCH = "main";
